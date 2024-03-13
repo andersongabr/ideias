@@ -105,6 +105,7 @@ main img{
     display: block;
     margin: auto;
     padding: 10px 0px 0px 0px;
+    width: 280px;
 }
 
 main #opiniao{
@@ -118,10 +119,6 @@ main #opiniao h2{
     background-color: var(--cor3);
     margin: -11px -9px 0px -10px;
     border-radius: 10px 10px 0px 0px;
-}
-
-aside{
-
 }
 
 footer{
