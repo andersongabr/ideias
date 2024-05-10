@@ -12,5 +12,5 @@
 </p>
 
 <p>
-    <a href="https://andersongabr.github.io/ideias/media-query/teste/index.html" target="_black">Orientação da tela do dispositivo</a>
+    <a href="media-query/teste/index.html" target="_black">Orientação da tela do dispositivo</a>
 </p>
