@@ -14,3 +14,7 @@
 <p>
     <a href="https://andersongabr.github.io/ideias/media/index.html" target="_black">Orientação da tela do dispositivo</a>
 </p>
+
+<p>
+    <a href="https://andersongabr.github.io/ideias/aniversario/index.html" target="_black">Projeto de aniversário</a>
+</p>
