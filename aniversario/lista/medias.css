@@ -30,7 +30,7 @@
 
     article#tenis > a#botao {
         position: relative;
-        top: 95px;
+        top: 128px;
     }
 
     article#tenis > p {
@@ -40,22 +40,22 @@
 
     article#tenis > img {
         position: relative;
-        top: 55px;
+        top: 96px;
     }
 
     article#jogo > a#botao {
         position: relative;
-        top: 31.5px;
+        top: 0px;
     }
 
     article#jogo > p {
         position: relative;
-        top: 32px;
+        top: 0px;
     }
 
     article#jogo > img {
         position: relative;
-        top: 31.5px;
+        top: 0px;
     }
 }
 
@@ -127,31 +127,49 @@
 
     article#jogo > a#botao {
         position: relative;
-        top: 32px;
+        top: 0px
     }
 
     article#jogo > p {
         position: relative;
-        top: 32px;
+        top: 0px;
     }
 
     article#jogo > img {
         position: relative;
-        top: 31.5px;
+        top: 0px;
     }
 
-    article#dinheiro > a#botao{
+    article#jogodois > a#botao{
         position: relative;
-        top: 1.5px;
+        top: 31px;
     }
 
-    article#dinheiro > p{
+    article#jogodois > p{
         position: relative;
-        top: 2px;
+        top: 15px;
     }
 
-    article#dinheiro > img{
+    article#jogodois > img{
         position: relative;
-
     }
+}
+
+@media screen and (min-width: 1041px) { 
+
+    article#jogo > a#botao {
+        position: relative;
+        top: 31px;
+    }
+
+    article#jogo > p {
+        position: relative;
+        top: 15px;
+    }
+
+    article#jogo > img {
+        position: relative;
+        top: 0px;
+    }
+
 }
