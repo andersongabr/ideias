@@ -57,6 +57,21 @@
         position: relative;
         top: 0px;
     }
+    
+    article#jogodois > a#botao{
+        position: relative;
+        top: 29px;
+    }
+
+    article#jogodois > p{
+        position: relative;
+        top: 29px;
+    }
+
+    article#jogodois > img{
+        position: relative;
+        top: 14.5px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -142,16 +157,17 @@
 
     article#jogodois > a#botao{
         position: relative;
-        top: 31px;
+        top: 58px;
     }
 
     article#jogodois > p{
         position: relative;
-        top: 15px;
+        top: 27px;
     }
 
     article#jogodois > img{
         position: relative;
+        top: 13.5px;
     }
 }
 
@@ -170,6 +186,11 @@
     article#jogo > img {
         position: relative;
         top: 0px;
+    }
+
+    article#jogodois > p{
+        position: relative;
+        top: 44px;
     }
 
 }
