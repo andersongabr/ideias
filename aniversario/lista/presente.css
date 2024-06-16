@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: 'Aniversario';
+    src: url('../fontes/6th_aniversario/6th-Aniversario_demo-font-FFP.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor0: #a82d66;
+    --cor1: #0476D9;
+    --cor2: #042940;
+    --cor3: #0588A6;
+    --cor4: #05F2DB;
+    --cor5: #031622;
+    --cor6: #820AD1;
+
+    --fonte-aniversario: 'Aniversario',sans-serif;
+    --fonte-presentear: 'Sriracha', cursive;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+p, h1, h2 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: var(--cor6);
+    width: 283px;
+    height: fit-content;
+    margin: auto;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.37);
+    padding: 10px;
+}
+
+img {
+    position: relative;
+    left: 68.5px;
+    width: 50%;
+    height: 50%;
+    box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.37);
+    margin-bottom: 5px;
+}
