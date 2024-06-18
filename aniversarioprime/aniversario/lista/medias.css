@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    section#presentes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    article {
+        flex: 1 1 calc(50% - 20px); /* Ajuste a largura dos artigos */
+        box-sizing: border-box; /* Garantir que padding e border sejam incluídos na largura total */
+        margin: 10px; /* Espaçamento entre os artigos */
+    }
+
+    article#gamepad > a#botao {
+        position: relative;
+        top: 58px;
+    }
+
+    article#gamepad > p {
+        position: relative;
+        top: 57.5px;
+    }
+
+    article#gamepad > img {
+        position: relative;
+        top: 55px;
+    }
+
+    article#tenis > a#botao {
+        position: relative;
+        top: 128px;
+    }
+
+    article#tenis > p {
+        position: relative;
+        top: 100px;
+    }
+
+    article#tenis > img {
+        position: relative;
+        top: 96px;
+    }
+
+    article#jogo > a#botao {
+        position: relative;
+        top: 0px;
+    }
+
+    article#jogo > p {
+        position: relative;
+        top: 0px;
+    }
+
+    article#jogo > img {
+        position: relative;
+        top: 0px;
+    }
+    
+    article#jogodois > a#botao{
+        position: relative;
+        top: 29px;
+    }
+
+    article#jogodois > p{
+        position: relative;
+        top: 29px;
+    }
+
+    article#jogodois > img{
+        position: relative;
+        top: 14.5px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    body {
+        background-color: white;
+    }
+    
+    main {
+        max-width: 1625px;
+        margin: auto;
+    }
+
+    section#explicacao > p {
+        font-size: 0.8em;
+    }
+
+    article {
+        flex: 1 1 calc(30% - 20px);
+        box-sizing: border-box;
+        margin: 10px;
+    }
+
+    article#gamepad > a#botao {
+        position: relative;
+        top: 58px;
+    }
+
+    article#gamepad > p {
+        position: relative;
+        top: 57.5px;
+    }
+
+    article#gamepad > img {
+        position: relative;
+        top: 55px;
+    }
+
+    article#fone > a#botao {
+        position: relative;
+        top: 61px;
+    }
+
+    article#fone > p {
+        position: relative;
+        top: 61px;
+    }
+
+    article#fone > img {
+        position: relative;
+        top: 61px;
+    }
+
+    article#tenis > a#botao {
+        position: relative;
+        top: 2px;
+    }
+
+    article#tenis > p {
+        position: relative;
+        top: 2px;
+    }
+
+    article#tenis > img {
+        position: relative;
+        top: 2px;
+    }
+
+    article#jogo > a#botao {
+        position: relative;
+        top: 0px
+    }
+
+    article#jogo > p {
+        position: relative;
+        top: 0px;
+    }
+
+    article#jogo > img {
+        position: relative;
+        top: 0px;
+    }
+
+    article#jogodois > a#botao{
+        position: relative;
+        top: 58px;
+    }
+
+    article#jogodois > p{
+        position: relative;
+        top: 27px;
+    }
+
+    article#jogodois > img{
+        position: relative;
+        top: 13.5px;
+    }
+}
+
+@media screen and (min-width: 1041px) { 
+
+    article#jogo > a#botao {
+        position: relative;
+        top: 31px;
+    }
+
+    article#jogo > p {
+        position: relative;
+        top: 15px;
+    }
+
+    article#jogo > img {
+        position: relative;
+        top: 0px;
+    }
+
+    article#jogodois > p{
+        position: relative;
+        top: 44px;
+    }
+
+}
