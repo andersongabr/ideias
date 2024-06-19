@@ -64,10 +64,6 @@ main > p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#obrigado {
-    font-size: 2em;
-}
-
 section#convite > p{
     font-size: 0.7em;
     font-weight: bold;
